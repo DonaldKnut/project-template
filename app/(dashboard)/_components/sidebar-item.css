@@ -1,0 +1,41 @@
+.sidebar-item {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem; /* Adjust as needed */
+  color: #4b5563; /* Default text color */
+  font-size: 0.875rem; /* Default font size */
+  font-weight: 500; /* Default font weight */
+  padding-left: 1.5rem; /* Default left padding */
+  transition: all 0.3s ease; /* Default transition */
+  padding: 19px 20px;
+
+  /* Hover styles */
+  &:hover {
+    color: #047857; /* Hover text color */
+    background-color: rgba(167, 243, 208, 0.2); /* Hover background color */
+  }
+}
+
+.sidebar-item.active {
+  color: #047857; /* Active text color */
+  background-color: rgba(240, 255, 244, 0.2); /* Active background color */
+
+  /* Active Hover styles */
+  &:hover {
+    background-color: rgba(
+      240,
+      255,
+      244,
+      0.2
+    ); /* Active hover background color */
+  }
+}
+
+.icon {
+  font-size: 22px; /* Set the desired size */
+  color: #4b5563; /* Default color */
+}
+
+.icon.active {
+  color: #047857; /* Active color */
+}
